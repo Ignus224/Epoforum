@@ -160,10 +160,13 @@ header{
 
 }
 .textBlock2 div{
-    height: 148px;
-    flex:0 1 255px;
+    flex:0 1 255px ;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
+    align-content:space-around;
+    justify-content:space-evenly;
+    height: 148px;
+
 
 
 }
@@ -175,6 +178,7 @@ header{
     line-height: 130%;
     letter-spacing: -0.01em;
     color: #FFFFFF;
+
 }
 .textBlock2 div a{
     font-family: "Lucida Sans Typewriter", sans-serif;
@@ -183,6 +187,7 @@ header{
     font-size: 14px;
     line-height: 135%;
     color: #FFFFFF;
+
 }
 
 .block1{
